@@ -18,3 +18,4 @@ spec:
         port: 9201
       initialDelaySeconds: 30
       periodSeconds: 10
+  serviceAccountName: myAccount
