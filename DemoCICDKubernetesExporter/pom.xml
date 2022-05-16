@@ -203,7 +203,7 @@
                         
                 <artifactId>mi-container-config-mapper</artifactId>
                         
-                <version>5.2.36</version>
+                <version>5.2.38</version>
                         
                 <extensions>true</extensions>
                         
