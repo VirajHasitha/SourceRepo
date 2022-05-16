@@ -7,3 +7,14 @@ spec:
   image: "virajhasith/cicdwso2mi:1.0.0-SNAPSHOT"
   deploySpec:
     minReplicas: 1
+    livenessProbe:
+      tcpSocket:
+        port: 8290
+      initialDelaySeconds: 30
+      periodSeconds: 10
+    readinessProbe:
+      httpGet:
+        path: /healthz
+        port: 9201
+      initialDelaySeconds: 30
+      periodSeconds: 10
