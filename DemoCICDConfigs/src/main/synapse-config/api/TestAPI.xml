@@ -5,6 +5,9 @@
             <log>
                 <property name="DemoAPI" value="Demo API IN "/>
             </log>
+            <log>
+                <property name="TestComment" value="TestComment 1"/>
+            </log>
             <call>
                 <endpoint>
                     <address uri="http://run.mocky.io/v3/c221f4c8-613a-49e4-8f2a-8333d7f9071b">
