@@ -2,7 +2,7 @@
 apiVersion: "wso2.com/v1alpha2"
 kind: "Integration"
 metadata:
-  name: "Demo1"
+  name: "demo1"
 spec:
   image: "virajhasith/cicdwso2mi:1.0.0-SNAPSHOT"
   deploySpec:
@@ -18,4 +18,3 @@ spec:
         port: 9201
       initialDelaySeconds: 30
       periodSeconds: 10
-  serviceAccountName: myAccount
