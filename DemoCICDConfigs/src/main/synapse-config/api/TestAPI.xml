@@ -6,7 +6,7 @@
                 <property name="DemoAPI" value="Demo API IN "/>
             </log>
             <log>
-                <property name="Testing" value="Test Comment 10"/>
+                <property name="Testing" value="Test Demostration"/>
             </log>
             <call>
                 <endpoint>
