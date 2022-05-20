@@ -6,7 +6,7 @@
                 <property name="DemoAPI" value="Demo API IN "/>
             </log>
             <log>
-                <property name="TestWebhook5" value="TestWebhook5"/>
+                <property name="TestWebhook6" value="TestWebhook6"/>
             </log>
             <call>
                 <endpoint>
